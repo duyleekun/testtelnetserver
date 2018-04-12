@@ -1,0 +1,10 @@
+version: '2'
+services:
+  yarn:
+      image: node:latest
+      working_dir: /workspace
+      ports:
+        - "23:23"
+      volumes:
+        - ./:/workspace
+      command: bash -c "yarn && yarn start"

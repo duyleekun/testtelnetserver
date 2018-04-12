@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "telnet": "^0.0.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
